@@ -1,0 +1,184 @@
+body {
+    /* font-family: 'Poppins', sans-serif; */
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #f4f4f4;
+}
+/* * {
+    margin: 0;
+    padding: 0;
+} */
+.container5 {
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+    text-align: center;
+}
+
+header {
+    background: rgb(156, 108, 5);
+    color: #fff;
+    padding-top: 10px;
+    min-height: 70px;
+    /* border-bottom: #77b300 3px solid; */
+    
+}
+li {
+    display: flex;
+    float: right;
+    margin-top: 25px;
+    display: inline;
+    margin: 13px 10px;
+    justify-content: end;
+}
+
+.container {
+    width: 50%; 
+     margin: 0 auto;
+     
+    
+    
+
+} 
+
+/* header {
+    background: hsl(350, 100%, 50%);
+    color: #fff;
+    padding: 20px 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    /* margin-left: 10px; */
+} 
+
+header h1 {
+    display: inline-block;
+    margin: 0;
+    text-align:left;
+    margin-right: 15rem;
+}
+
+
+#hero {
+    background: url('https://2.bp.blogspot.com/-w1_neG-OHgE/T_gDrxWWBuI/AAAAAAAAA8I/WQN5UBjech4/s1600/Desroches-Island-Resort-Package-Seychelles-14.jpg') no-repeat center center/cover;
+    color: #ffffffe3;
+    text-align: center;
+    padding: 150px 0 100px ;
+    margin-top: 80px;
+    position: relative;
+}
+
+.hero-content { background: rgba(0, 0, 0, 0.5);
+    display: inline-block;
+    padding: 20px;
+    border-radius: 10px;}
+
+.cta-button {
+    background: #85ff2260;
+    color: white;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: 600;
+    transition: background 0.3s;
+}
+
+.cta-button:hover {
+    background: #296b03;
+}
+
+section {
+    padding: 60px 0;
+    text-align: center;
+    background-color: #fff;
+    margin: 20px 0;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    margin-bottom: 40px;
+    color: #196804f1;
+    font-weight: 600;
+}
+
+h4{ color: #ddcb2cd0;}
+
+
+.tour, .destination, .testimonial {
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+form label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+form button {
+    background: #007BFF;
+    color: #fff;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+form button:hover {
+    background: #1b00b3;
+}
+
+footer {
+    background:rgb(156, 108, 5);
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 20px;
+}
+footer nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+footer nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+footer nav ul li a {    
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+    transition: color 0.3s;
+}
+
+footer nav ul li a:hover {
+    color: #ff5722;
+}
